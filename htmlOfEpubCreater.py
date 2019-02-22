@@ -3,7 +3,7 @@ text = '''
 <html xml:lang="zh-CN" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>1</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="../Styles/style.css" rel="stylesheet" type="text/css"/>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 </head>
   <body>
@@ -19,7 +19,7 @@ text = '''
 import os
 import os.path
 
-rootdir = 'C:\\Users\\lin\\Desktop\\xxxx'
+rootdir = 'C:\\Users\\lin\\Desktop\\成为我的恋童吧'
 filelist = []
 
 for parent, dirnames, filenames in os.walk(rootdir):
